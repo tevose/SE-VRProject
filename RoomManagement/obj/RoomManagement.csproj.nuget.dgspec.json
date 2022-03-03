@@ -1,0 +1,70 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Kieran/Desktop/Personal Files/CODING/CSharp/VRILiving/RoomManagement/RoomManagement.csproj": {}
+  },
+  "projects": {
+    "/Users/Kieran/Desktop/Personal Files/CODING/CSharp/VRILiving/RoomManagement/RoomManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Kieran/Desktop/Personal Files/CODING/CSharp/VRILiving/RoomManagement/RoomManagement.csproj",
+        "projectName": "RoomManagement",
+        "projectPath": "/Users/Kieran/Desktop/Personal Files/CODING/CSharp/VRILiving/RoomManagement/RoomManagement.csproj",
+        "packagesPath": "/Users/Kieran/.nuget/packages/",
+        "outputPath": "/Users/Kieran/Desktop/Personal Files/CODING/CSharp/VRILiving/RoomManagement/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Kieran/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Grapevine": {
+              "target": "Package",
+              "version": "[5.0.0-rc.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
