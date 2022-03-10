@@ -206,7 +206,7 @@ namespace RoomManagement {
             string serverId = RoomIdGenerator.GenerateId(IdType.SERVER_ID);
             string roomId = RoomIdGenerator.GenerateId(IdType.ROOM_ID);
             
-            Room room = Room.CreateRoom(serverId, roomEnvId);
+            Room room = Room.CreateRoom(serverId, roomEnvId, roomId);
             room.JoinRoom(client);
             
             PASSWORD_MANAGER.SetPassword(roomId);

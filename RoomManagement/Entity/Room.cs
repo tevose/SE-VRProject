@@ -7,16 +7,19 @@ namespace RoomManagement.Entity {
 
         internal List<Client> Clients { get; }
         internal string ServerId { get; }
+        
+        internal string RoomId { get; }
         internal string EnvironmentId { get; }
 
-        private Room(string serverId, string environmentId) {
+        private Room(string serverId, string environmentId, string roomId) {
             this.ServerId = serverId;
             this.EnvironmentId = environmentId;
+            this.RoomId = roomId;
             this.Clients = new List<Client>();
         }
 
-        internal static Room CreateRoom(string serverId, string environmentId) {
-            return new Room(serverId, environmentId);
+        internal static Room CreateRoom(string serverId, string environmentId, string roomId) {
+            return new Room(serverId, environmentId, roomId);
         }
 
         internal bool JoinRoom(Client client) {
@@ -49,11 +52,12 @@ namespace RoomManagement.Entity {
         }
 
         public override int GetHashCode() {
-            return 17 * 7 + HashCode.Combine(this.ServerId, this.EnvironmentId);
+            return 17 * 7 + HashCode.Combine(this.ServerId, this.EnvironmentId, this.RoomId);
         }
 
         public bool Equals(Room room) {
-            return (room != null) && (this.ServerId == room.ServerId) && (this.EnvironmentId == room.EnvironmentId);
+            return (room != null) && (this.ServerId == room.ServerId) && (this.EnvironmentId == room.EnvironmentId)
+            && (this.RoomId == room.RoomId);
         }
 
     }
