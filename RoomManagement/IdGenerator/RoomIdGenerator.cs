@@ -34,7 +34,7 @@ namespace RoomManagement.IdGenerator {
                 // Gets random byte from the engine and stores it in the byte array
                 provider.GetBytes(oneByte);
                     
-                // Converts the byte to a character
+                // Convert the byte to a character
                 char character = (char) oneByte[0];
 
                 if (type == IdType.ROOM_ID) {
