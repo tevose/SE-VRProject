@@ -9,4 +9,4 @@ Users will be able to enter a room with a friend and speak as they wish with the
 
 ## Using the application/ Future development
 
-For detailed instructions on using this application please see our user manual.
+For detailed instructions on running and using this application please see our user manual.
