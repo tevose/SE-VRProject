@@ -4,7 +4,7 @@ More than 2 million people in England over the age of 75 live alone, and more th
 
 Users will be able to enter a room with a friend and speak as they wish with the immersive nature of such a room allowing for a closer, more intimate meeting than alternatives such as voice or video calls.
 
-![image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.forbes.com%2Fsites%2Fsolrogers%2F2020%2F02%2F26%2Fhow-virtual-reality-is-benefiting-seniors%2F&psig=AOvVaw0GgUmp_1VPQ1c2EEQ-G6CU&ust=1647601946077000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjIweOBzfYCFQAAAAAdAAAAABAD)
+![image](https://imageio.forbes.com/specials-images/imageserve/1076509012/Stay-connected-to-the-joys-of-life--Shot-of-happy-senior-women-using-virtual-reality/960x0.jpg?fit=bounds&format=jpg&width=960)
 
 
 ## Using the application/ Future development
